@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Friday Deal Finder 2026 — Real deals, checked by hand</title>
+<meta name="description" content="17 real Black Friday 2026 deals from Amazon, Best Buy, Walmart and Target, each checked against a live source, with a plain verdict on whether each one is really a deal.">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="hero">
+  <p class="kicker">Black Friday 2026 &middot; checked 24&ndash;27 Nov 2026</p>
+  <h1>Black Friday Deal Finder</h1>
+  <p class="lede">Seventeen real deals we checked ourselves — product, store, sale price, usual price, and the date we saw it. No inflated “was” prices, no mystery links: every card tells you plainly whether the cut is real.</p>
+  <div class="stats" id="stats" aria-live="polite"></div>
+  <div class="top-picks" id="top-picks"></div>
+</header>
+
+<main>
+  <section class="controls" aria-label="Search and filter deals">
+    <input id="search" type="search" placeholder="Search a product, e.g. AirPods…" aria-label="Search deals" autocomplete="off">
+    <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
+    <select id="store" aria-label="Filter by store"><option value="">All stores</option></select>
+    <select id="min-discount" aria-label="Minimum discount">
+      <option value="0">Any discount</option>
+      <option value="20">At least 20% off</option>
+      <option value="30">At least 30% off</option>
+      <option value="40">At least 40% off</option>
+      <option value="50">At least 50% off</option>
+    </select>
+    <select id="sort" aria-label="Sort deals">
+      <option value="discount">Biggest discount first</option>
+      <option value="savings">Biggest saving ($) first</option>
+      <option value="price-asc">Lowest price first</option>
+      <option value="price-desc">Highest price first</option>
+    </select>
+    <label class="real-only"><input type="checkbox" id="real-only"> Real deals only (50%+ off)</label>
+  </section>
+
+  <p class="legend"><span class="badge badge-real">REAL DEAL</span> 50%+ off &nbsp;·&nbsp; <span class="badge badge-good">GOOD DEAL</span> 30%+ off, or 20%+ at an all-time low &nbsp;·&nbsp; <span class="badge badge-modest">MODEST</span> a cut, but not a bargain — check before you buy</p>
+
+  <p class="count" id="count" aria-live="polite"></p>
+  <section class="grid" id="grid" aria-live="polite"></section>
+  <p class="empty" id="empty" hidden>No deals match those filters. Try clearing the search or lowering the minimum discount.</p>
+</main>
+
+<footer>
+  <p>Prices checked 24–27 Nov 2026 — each deal card shows its own check date. Prices move all day on Black Friday: confirm the live price on the store page before you buy. Sale prices are the store’s listed price on the check date; “usual price” is the store’s list price.</p>
+  <p>Deal Finder is an independent guide. Store names belong to their owners; links go straight to each store’s own search page for the product. No prices here are sponsored.</p>
+</footer>
+
+<script src="deals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
