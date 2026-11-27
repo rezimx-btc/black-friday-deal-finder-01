@@ -1,8 +1,8 @@
 # Black Friday Deal Finder 2026
 
 [![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
-[![make.fun · rank](https://make.fun/badge/rank/rezimx-btc/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
-[![make.fun · reward](https://make.fun/badge/reward/rezimx-btc/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/rezimx-btc/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/rezimx-btc/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
 
 A static site of **real Black Friday 2026 deals we checked ourselves** — 17 deals from Amazon, Best Buy, Walmart and Target, each with the product, the store, a link to it there, sale price, usual price, and the date we checked it. Searchable and filterable by category, store and minimum discount, with a plain verdict on every deal: **REAL DEAL** (50%+ off), **GOOD DEAL** (30%+ off, or 20%+ at an all-time low), or **MODEST** (a cut, but not a bargain).
 
